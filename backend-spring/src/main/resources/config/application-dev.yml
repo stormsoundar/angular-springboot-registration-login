@@ -1,0 +1,24 @@
+server.port: 8099
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/beovolytics?useLegacyDatetimeCode=false&serverTimezone=UTC
+    username: root
+    password:
+#     url: jdbc:postgresql://localhost:5432/beovolytics
+#     username: postgres
+#     password: Ss31720213
+
+  # By default CORS is disabled. Uncomment to enable.
+  cors:
+    allowed-origins: "*"
+    allowed-methods: "*"
+    allowed-headers: "*"
+
+#  @CrossOrigin(origins = "http://localhost:4200")
+
+
+
+
+
+

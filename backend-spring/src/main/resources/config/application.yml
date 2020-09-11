@@ -1,0 +1,9 @@
+server.port: 8098
+
+spring.profiles.active: dev
+#
+#  # By default CORS is disabled. Uncomment to enable.
+#  cors:
+#    allowed-origins: "*"
+#    allowed-methods: "*"
+#    allowed-headers: "*"
